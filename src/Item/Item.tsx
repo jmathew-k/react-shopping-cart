@@ -22,3 +22,5 @@ const Item: React.FC<Props> = ({ item, handleAddToCart }) => (
         <Button onClick={() => handleAddToCart(item)}>Add to cart</Button>
     </Wrapper>
 )
+ 
+export default Item;
